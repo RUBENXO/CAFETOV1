@@ -1,0 +1,164 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+
+body {
+    background-color: #fff2f0;
+}
+
+header {
+    background-color: #fb0010;
+    margin: auto;
+    width: 1221px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.automatico{
+    margin: auto;
+    width: 1221px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav {
+    padding: 2%;
+    background-color: #fff2f0;
+    margin: auto;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+footer {
+    background-color: #fff2f0;
+    margin: auto;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 160%;
+    font-weight: 600;
+    gap: 100px;
+}
+
+.paginainicio {
+    background-color: #fff2f0;
+    height: 680px;
+    display: flex;
+    justify-content: center;
+    z-index: 1;
+    position: relative;
+    user-select: none;
+}
+
+.polvora {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    gap: 15px;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.logo {
+    width: 100px;
+    cursor: pointer;
+}
+
+.boton {
+    width: 50px;
+    cursor: pointer;
+}
+
+.galeria1 {
+    position: relative;
+    background-color: #d4bdaf;
+    margin-top: 35px;
+    width: 820px;
+    height: 586px;
+    display: flex;
+}
+
+.botones {
+    font-size: 30px;
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, .7);
+    text-align: center;
+    font-weight: bold;
+    position: absolute;
+    color: #fff;
+    box-shadow: 0 0 10px rgba(255, 255, 255, .6);
+    -webkit-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+    z-index: 2;
+    outline: none;
+}
+
+.botones:hover{
+    cursor: pointer;
+    transform: scale(1.2,1.2);
+}
+
+.atras{
+    left: 2%;
+    top: calc(50% - 70px);
+} 
+
+.adelante{
+    right: 2%;
+    top: calc(50% - 70px);
+}
+
+.automaticoItems{
+    height: 220px;
+    width: 1221px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.automaticoItem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 200px;
+}
+
+.automaticoItem img{
+    height: 160px;
+    width: 160px;
+}
+
+.automaticoItem:hover{
+    transform: scale(1.2);
+}
+
+.aviso{
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: medium;
+    font-style: italic;
+}
